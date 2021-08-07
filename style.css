@@ -1,0 +1,239 @@
+body{
+	background: #1a2421;
+}
+.page1{
+	background: url("https://i.pinimg.com/originals/bb/f9/a9/bbf9a9f662d346b6f3ca2fd2ab89685b.jpg");
+    border-radius: 30px 30px 0px 0px;
+    color: white;
+    margin: 0% 10%;
+    padding: 2% 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.navbar{
+	background-color: black;
+}
+.page1 p{
+	font-size: 20px;
+}
+.navbar b{
+	font-size: 25px;
+	color: white;
+	float: left;
+	padding: 0% 2%;
+	text-align: center;
+}
+.navbar a{
+	color: white;
+	float: right;
+	padding: 0% 2%;
+	text-align: center;
+
+}
+.navbar a:hover{
+	color: orange;
+}
+.btnpg1 a{
+	padding: 10px 20px;
+	border-radius: 10px;
+	background: mediumpurple;
+}
+
+.btnpg1 a:hover{
+	background: orange;
+}
+.sec2{
+	background: white;
+    margin: 0% 10%;
+    padding: 5% 10%;
+    height: 300px;
+}
+.teacher b{
+	float: left;
+	width: 60%;
+}
+.sec2 h2{
+	text-align: center;
+}
+.sec2 .teacher b{
+	text-align: center;
+	width: 60%;
+	float: left;
+}
+.sec2 .teacher img{
+	width: 30%;
+	float: right;
+}
+/*section 3 courses*/
+.sec3{
+	background: white;
+    margin: 0% 10%;
+    padding: 5% 10%;
+    height: 400px;
+    font-size: 100%;
+}
+.page2pic1{
+    text-align: center;
+    float:left; 
+    width:32%;
+}
+.page2pic2{
+	text-align: center;
+   float:left;
+   width:35%;
+}
+.page2pic3{
+	text-align: center;
+   float:right;
+   width:32%;
+}
+img{
+	border-radius: 20px;
+}
+
+/*Page 4 */
+.sec4{
+	background: grey;
+    margin: 0% 10%;
+    padding: 5% 10%;
+    height: 500px;
+    color: white;
+}
+/*Project Page 4*/
+.projects{
+	background: grey;
+	text-align: center;
+}
+.projects img{
+	border-radius: 20px;
+}
+.page2proj1{
+    float:left; 
+    width:25%;
+}
+.page2proj2{
+   float:left;
+   width:25%;
+}
+.page2proj3{
+   float:right;
+   width:25%;
+}
+.page2proj4{
+   float:right;
+   width:25%;
+}
+/*Courses page 4 section 5 yahape projects*/
+.page2course1{
+	text-align: center;
+    float:left; 
+    width:32%;
+}
+.page2course2{
+	text-align: center;
+   float:left;
+   width:35%;
+}
+.page2course3{
+	text-align: center;
+   float:right;
+   width:32%;
+}
+
+.sec5{
+	background: white;
+    margin: 0% 10%;
+    padding: 5% 15%;
+    height: 400px;
+}
+.sec5 a{
+	padding: 5% 15%;
+	border-radius: 10px;
+	background: yellow;
+}
+.sec5 a:hover{
+	background: mediumpurple;
+}
+/*Contact US*/
+.sec6{
+	background: mediumpurple;
+	margin: 0% 10%;
+   padding: 5% 15%;
+	height: 300px;
+}
+
+.contact{
+	background: yellow;
+	margin: 0% 10%;
+   padding: 5% 15%;
+	height: 325px;
+}
+.map{
+	float: left;
+	width: 50%;
+	height: 300px;
+}
+.contactus{
+	float: right;
+	width: 49%;
+	height: 300px;
+}
+.sec6 input{
+	padding: 5% 5%;
+	border-radius: 30px;
+}
+input{
+	width: 99%;
+	border-radius: 10px 10px;
+	padding: 2% 3%;
+}
+label{
+	padding: 2% 1%;
+	font-size: 20px;
+}
+/*about us*/
+.about{
+	background: white;
+	margin: 0% 10%;
+   padding: 5% 15%;
+	height: 300px;
+}
+
+
+.about .item{
+	width: 35px;
+	height: 35px;
+	border: 2px solid  #eeeeee;
+	margin: 0px 5px;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 50%;
+	cursor: #eeeeee;
+	transition: all 0.5s ease;
+	margin-bottom: 10px;
+}
+
+.about .item:hover{
+	border-color: #3aaf9f;
+	color: #3aaf9f;
+}
+
+.about1{
+	text-align: center;
+    float:left; 
+    width:32%;
+}
+.about2{
+	text-align: center;
+   float:left;
+   width:35%;
+}
+.about3{
+	text-align: center;
+   float:right;
+   width:32%;
+}
+
+
