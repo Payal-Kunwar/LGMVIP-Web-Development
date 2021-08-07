@@ -6,7 +6,7 @@ body{
     border-radius: 30px 30px 0px 0px;
     color: white;
     margin: 0% 10%;
-    padding: 2% 10%;
+    padding: 2% 5%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,7 +47,7 @@ body{
 .sec2{
 	background: white;
     margin: 0% 10%;
-    padding: 5% 10%;
+    padding: 2% 5%;
     height: 300px;
 }
 .teacher b{
@@ -70,7 +70,7 @@ body{
 .sec3{
 	background: white;
     margin: 0% 10%;
-    padding: 5% 10%;
+    padding: 2% 5%;
     height: 400px;
     font-size: 100%;
 }
@@ -97,7 +97,7 @@ img{
 .sec4{
 	background: grey;
     margin: 0% 10%;
-    padding: 5% 10%;
+    padding: 2% 5%;
     height: 500px;
     color: white;
 }
@@ -145,7 +145,7 @@ img{
 .sec5{
 	background: white;
     margin: 0% 10%;
-    padding: 5% 15%;
+    padding: 2% 5%;
     height: 400px;
 }
 .sec5 a{
@@ -160,14 +160,14 @@ img{
 .sec6{
 	background: mediumpurple;
 	margin: 0% 10%;
-   padding: 5% 15%;
+   padding: 2% 5%;
 	height: 300px;
 }
 
 .contact{
 	background: yellow;
 	margin: 0% 10%;
-   padding: 5% 15%;
+   padding: 2% 5%;
 	height: 325px;
 }
 .map{
