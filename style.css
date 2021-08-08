@@ -271,24 +271,8 @@ label{
 	display: flex;
 	justify-content: center;
 }
-/*
-.item1, .item2, .item3{
-	border: 2px solid orangered;
-   justify-items: center;
-   width: 35px;
-   height: 35px;
-	text-align: center;
-	line-height: 35px;
-	border-radius: 50%;
-	cursor: darkorange;
-	transition: all 0.5s ease;
-	margin-bottom: 10px;
-}
-*/
 .item1:hover, .item2:hover, .item3:hover{
-	background: mistyrose;
-	border-color: mediumpurple;
-	color: #3aaf9f;
+	color: purple;
 }
 .address{
     text-align: center;
