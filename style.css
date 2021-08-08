@@ -302,8 +302,4 @@ label{
     height: 530px;
   }
 }
-@media (max-width: 480px) {
-  .page1, .sec2, .sec3, .sec4, .sec5, .sec6, .contact, .about {
-    height: 530px;
-  }
-}
+
