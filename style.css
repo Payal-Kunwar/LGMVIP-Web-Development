@@ -6,7 +6,7 @@ body{
     border-radius: 30px 30px 0px 0px;
     color: white;
     margin: 0% 10%;
-    padding: 2% 2%;
+    padding: 2% 5%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,7 +47,7 @@ body{
 .sec2{
 	background: white;
     margin: 0% 10%;
-    padding: 2% 2%;
+    padding: 5% 5%;
     height: 300px;
 }
 .teacher b{
@@ -70,7 +70,7 @@ body{
 .sec3{
 	background: white;
     margin: 0% 10%;
-    padding: 2% 2%;
+    padding: 5% 5%;
     height: 400px;
     font-size: 100%;
 }
@@ -97,7 +97,7 @@ img{
 .sec4{
 	background: grey;
     margin: 0% 10%;
-    padding: 2% 2%;
+    padding: 5% 5%;
     height: 500px;
     color: white;
 }
@@ -127,7 +127,7 @@ img{
 }
 /*Courses page 4 section 5 yahape projects*/
 .page2course1{
-    text-align: center;
+	text-align: center;
     float:left; 
     width:32%;
 }
@@ -145,8 +145,8 @@ img{
 .sec5{
 	background: white;
     margin: 0% 10%;
-    padding: 2% 2%;
-    height: 500px;
+    padding: 5% 5%;
+    height: 600px;
 }
 .sec5 a{
 	padding: 5% 15%;
@@ -156,34 +156,91 @@ img{
 .sec5 a:hover{
 	background: mediumpurple;
 }
-/*Contact US*/
+/*Carousel*/
 .sec6{
-	background: mediumpurple;
-	margin: 0% 10%;
-   padding: 2% 2%;
-	height: 300px;
+  background: mediumpurple;
+  margin: 0% 10%;
+   padding: 5% 5%;
+  height: 600px;
+  color: black;
+}
+* {box-sizing:border-box}
+
+/* Free Courses container */
+.freecourses-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
+.sec6 img{
+	height: 400px;
+}
+/* Make the images invisible by default */
+.free {
+  display: none;
+}
+
+/* Enroll Option */
+.enroll {
+  color:black;
+  font-size: 150%;
+  padding: 0% 5%;
+  position: absolute;
+  bottom: 1px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The circles or bullets and indicators */
+.bar {
+  cursor: pointer;
+  height: 10px;
+  width: 40px;
+  margin: 0 3px;
+  background-color: lightyellow;
+  display: inline-block;
+  transition: background-color 0.9s ease;
+}
+.enable, .bar:hover {
+  background-color: purple;
+}
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+/*Contact Us*/
 .contact{
 	background: yellow;
 	margin: 0% 10%;
-   padding: 2% 2%;
-	height: 325px;
+   padding: 5% 5%;
+	height: 500px;
 }
 .map{
 	float: left;
-	width: 50%;
-	height: 300px;
+	width: 48%;
 }
 .contactus{
 	float: right;
 	width: 49%;
 	height: 300px;
 }
-.sec6 input{
-	padding: 5% 5%;
-	border-radius: 30px;
-}
+
 input{
 	width: 99%;
 	border-radius: 10px 10px;
@@ -197,43 +254,56 @@ label{
 .about{
 	background: white;
 	margin: 0% 10%;
-   padding: 5% 15%;
+   padding: 5% 2%;
 	height: 300px;
 }
 
-
-.about .item{
-	width: 35px;
-	height: 35px;
-	border: 2px solid  #eeeeee;
-	margin: 0px 5px;
+.about .media{
+	display: flex;
+	justify-content: center;
+}
+/*
+.item1, .item2, .item3{
+	border: 2px solid orangered;
+   justify-items: center;
+   width: 35px;
+   height: 35px;
 	text-align: center;
 	line-height: 35px;
 	border-radius: 50%;
-	cursor: #eeeeee;
+	cursor: darkorange;
 	transition: all 0.5s ease;
 	margin-bottom: 10px;
 }
-
-.about .item:hover{
-	border-color: #3aaf9f;
+*/
+.item1:hover, .item2:hover, .item3:hover{
+	background: mistyrose;
+	border-color: mediumpurple;
 	color: #3aaf9f;
 }
-
-.about1{
-	text-align: center;
+.address{
+    text-align: center;
     float:left; 
     width:32%;
 }
-.about2{
+.phone{
 	text-align: center;
    float:left;
    width:35%;
 }
-.about3{
+.timing{
 	text-align: center;
    float:right;
    width:32%;
 }
 
-
+@media (max-width: 500px) {
+  .page1, .sec2, .sec3, .sec4, .sec5, .sec6, .contact, .about {
+    height: 530px;
+  }
+}
+@media (max-width: 480px) {
+  .page1, .sec2, .sec3, .sec4, .sec5, .sec6, .contact, .about {
+    height: 530px;
+  }
+}

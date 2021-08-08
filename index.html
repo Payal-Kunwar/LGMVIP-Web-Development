@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<title>Task 1</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="javascript" href="script.js">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" href="https://fontawesome.com/v5.15/icons">
 
 </head>
 <body class="body">
@@ -14,8 +14,8 @@
 		<b>ACC</b>
 		<a href="#reachus">Reach Us</a>
 		<a href="#contact">Contact</a>
-		<a href="#lv">Live Videos</a>
-		<a href="#feature">Features</a>
+		<a href="#fc">Free Courses</a>
+		<a href="#project">Projects</a>
 		<a href="#tc">Trending Courses</a>
 		<a href="#laa">Life At ACC</a>
 	</div><br><br><br>
@@ -73,40 +73,81 @@
 </div>
 </div>
 <!--Yahape Projects are there like works-->
-	<div class="sec5" id="feature">
+	<div class="sec5" id="project">
 		<h2>Projects</h2>
 		A glimpse of Projects  made by our Students<hr>
-	<div class="page2course1"><h4>Cyber Security</h4><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJZfml6rsB8n0jXGtIIctv2gpfUMpS_Ekv8Q&usqp=CAU" height="200px" width="95%">Hello one and all yeh paragraph mein feature daalna hai<p><a href="">Button1</a></div>
-	<div class="page2course2"><h4>Machine Learning</h4> <img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2020/01/movie-recommendation-using-ML.jpg" height="200px" width="95%">Hello one and all yeh paragraph mein feature daalna hai<p><a href="">Button2</a></div>
-	<div class="page2course3"><h4>Data Science</h4><img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/08/Data-Science-R-project-customer-segmentation.png" height="200px" width="95%">Hello one and all yeh paragraph mein feature daalna hai<p><a href="">Button3</a></div>
+	<div class="page2course1"><h4>Cyber Security</h4><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJZfml6rsB8n0jXGtIIctv2gpfUMpS_Ekv8Q&usqp=CAU" height="200px" width="95%">Biometric Security System<p></p><br><a type=button onclick="alert('A higher Authentiction System which Provides Security of Your Confidential Business. ')">View</a></div>
+
+	<div class="page2course2"><h4>Machine Learning</h4> <img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2020/01/movie-recommendation-using-ML.jpg" height="200px" width="95%">Movie Recommendation System Using ML<p><a type=button onclick="alert('Movie recommendation System Based on User Interests')">View</a></div>
+
+	<div class="page2course3"><h4>Data Science</h4><img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/08/Data-Science-R-project-customer-segmentation.png" height="200px" width="95%">Customer Segmentation<p><br><a type=button onclick="alert('Identifying Potential Customer For your Products. It increases Your PROFIT. ')">View</a></div>
+
     </div>
-<div class="sec6" id="lv">
-</div>	
+<div class="sec6" id="fc"> 
+   <!-- Slideshow container -->
+<div class="freecourses fade">
+
+  <!-- Full images with numbers and message Info -->
+  <div class="free">
+    <img src="https://analyticsinsight.b-cdn.net/wp-content/uploads/2020/11/Artificial-Intelligence-5.jpg" style="width:100%">
+    <div class="enroll">Enroll</div>
+  </div>
+
+  <div class="free">
+    <img src="https://www.pngkit.com/png/detail/70-701692_python-programming-logo-python-programming-language-png.png" style="width:100%">
+    <div class="enroll">Enroll</div>
+  </div>
+
+  <div class="free">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPTk_xJ2mYZbrL0ez6YUE5zz2Q5QG7r5FQHxJbneGC0RRohE39PcheghnIynmQdC4d90g&usqp=CAU" style="width:100%">
+    <div class="enroll">Enroll</div>
+  </div>
+</div>
+<br>
+
+<!-- The circles/dots -->
+<div style="text-align:center">
+  <span class="bar" onclick="currentCourse(1)"></span>
+  <span class="bar" onclick="currentCourse(2)"></span>
+  <span class="bar" onclick="currentCourse(3)"></span>
+</div>
+  </div> 	
 <div class="contact" id="contact">
 	<div class="map">
-		
+		<img src="https://www.google.com/maps/vt/data=9esEzZrWFN9ja1NnmAlkxm9JFnaFjdp5oI7Vn7xkWJe51aZEA5Piq8K0ihXY2fCAX4YOt-_S9GggXQ1fXkUWF7yi9YpMP68sCRt4sSzA6gfZ-ZyI4WyARvvfDL7gmPWFuS7XOPyFx2T--ZMKJYz6IxHRCTXzcv57Al604k847i6kqLJjJaPHjRMAk_Fv72EY7u0bBOYdAyYpzUDA_yDSgGuLS4973T9OoRZMu7qnXKQTX8ggmAToMkZNh7VQVA" height="400px" width="100%">
 	</div>
 	<div class="contactus">
 		<h2>Contact Us</h2><hr>
 		<form>
-			<label>Name</label><br><input type="text" name="name"><br>
-			<label>Email</label><br><input type="email" name="email"><br>
-			<label>Phone Number</label><br><input type="tel" name="phone"><br>
+			<label>Name</label><br><input type="text" name="name" required="1"><br>
+			<label>Email</label><br><input type="email" name="email" required="1"><br>
+			<label>Phone Number</label><br><input type="tel" name="phone" required="1"><br>
 			<label>Query</label><br><textarea  rows="4" cols="50" name="query" style="width: 99%; border-radius: 10px 10px; padding: 2% 3%;"></textarea>
 			<input type="submit" name="submit" style="width: 30%; height: auto;">
 		</form>
 	</div>
 </div>
 <div class="about" id="reachus">
-	<div class="about1"><div class="item">
-		<i class="far fa-address-book"></i>
-	</div>Address: Shop no: 2/ Jivdani Road Nani Park, Near Viva Old School Virar</div>
-	<div class="about2"><div class="item">
-	  <i class="fas fa-phone"></i>
-	</div>Contact no: 88888 99999</div>
-	<div class="about3"><div class="item">
-		<i class="fas fa-user-clock"></i>
-	</div>Timings: Morning 8am to 3pm. Evening 5pm to 9pm</div>
-</div>
+	  <div class="media">
+	     <div class="address">	
+	       <div class="item1">
+		       <i class="fas fa-map-marker-alt"></i>
+	       </div><br>
+	       Address: Shop no 21, Jivdani Road, Near St. Peter School, Virar East, Palghar 401305.
+       </div>
+	     <div class="phone">	
+	       <div class="item2">
+		       <i class="fa fa-facebook"></i>
+	       </div><br>
+	       Phone no: 88888 99999
+       </div>
+	     <div class="timing">	
+	       <div class="item3">
+		       <i class="fa fa-facebook"></i>
+	       </div><br>
+	       Morning:9anm to 2pm
+	       <br> Evening: 3pm to 9pm
+       </div>
+   </div>	
 </body>
 </html>
