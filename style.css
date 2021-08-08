@@ -140,8 +140,17 @@ img{
 	text-align: center;
    float:right;
    width:32%;
+}/*image galery*/
+.image_gal{
+	background: white;
+    margin: 0% 10%;
+    padding: 5% 5%;
+    height: 600px;
 }
-
+.image_gal .small_img{
+	text-align: center;
+}
+/*Section 5*/
 .sec5{
 	background: white;
     margin: 0% 10%;
