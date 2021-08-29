@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<meta charset="utf-8">
 	<title>Task 1</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="script.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script type="text/javascript">
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('header');
+    header.classList.toggle("sticky", window.scrollY > 0);
+});
+</script>
+
 
 </head>
-<body class="body">
+<body>
  <div class="page1">
+ 	<header>
 	<div class="navbar">
 		<b>ACC</b>
 		<a href="#reachus">Reach Us</a>
@@ -18,7 +27,7 @@
 		<a href="#project">Projects</a>
 		<a href="#tc">Trending Courses</a>
 		<a href="#laa">Life At ACC</a>
-	</div><br><br><br>
+	</div></header><br><br><br>
 	<h1>Welcome All</h1>
 	<p>Practice makes a man perfect. Hard work beats talent when talent does't work Hard.</p>
 	<p>Success never comes handy. It requires efforts. Efforts are dedication and hard work.</p>
@@ -28,6 +37,7 @@
 	</div>
 </div>
 <div class="sec2" id="laa">
+
 	<h2>Expert faculty</h2><hr>
 	<div class="teacher">
 		<b>GururBrahma GururVishnu GururDevo Maheshwaraha<br>
@@ -92,42 +102,48 @@
 
    <img src="https://rentechdigital.com/wp-content/uploads/2021/02/Best-UI-UX-Design-Tools-For-2021.png" height="50px" width="10%" onclick="change(this.src)">
 
-<img src="https://lh3.googleusercontent.com/proxy/4bMlB2OhyZLtAvz-V8pRwIe8ui3dH06iJW4l0P8Rz1Q0PvRYGaj4LJcXJawOV6QfD8lVLjQUIQbc60MYwHyjHErb53YMm0xG9-WGwX39zU_F1Xok18Cz" height="50px" width="10%" onclick="change(this.src)">
+<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200710234318/Why-Cloud-Computing-is-Booming-in-the-Market.png" height="50px" width="10%" onclick="change(this.src)">
+
 <img src="https://sectigostore.com/blog/wp-content/uploads/2020/06/cyber-security-tips-for-smbs-940x588.jpg" height="50px" width="10%" onclick="change(this.src)">
+</div>
 </div>
 
 
+<div class="signup">
+	<input type="text" placeholder="Enter Your Unique ID" name="sign">
+	<a href="#">Signup</a>
 </div>
 
 <!--Yahape Projects are there like works-->
 	<div class="sec5" id="project">
 		<h2>Projects</h2>
 		A glimpse of Projects  made by our Students<hr>
-	<div class="page2course1"><h4>Cyber Security</h4><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJZfml6rsB8n0jXGtIIctv2gpfUMpS_Ekv8Q&usqp=CAU" height="200px" width="95%">Biometric Security System<p></p><br><a type=button onclick="alert('A higher Authentiction System which Provides Security of Your Confidential Business. ')">View</a></div>
+	<div class="page2course1"><h4>Cyber Security</h4><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJZfml6rsB8n0jXGtIIctv2gpfUMpS_Ekv8Q&usqp=CAU" height="200px" width="95%">Biometric Security System<p><br><a type=button onclick="alert('A higher Authentiction System which Provides Security of Your Confidential Business. ')">View</a></div>
 
-	<div class="page2course2"><h4>Machine Learning</h4> <img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2020/01/movie-recommendation-using-ML.jpg" height="200px" width="95%">Movie Recommendation System Using ML<p><a type=button onclick="alert('Movie recommendation System Based on User Interests')">View</a></div>
+	<div class="page2course2"><h4>Machine Learning</h4> <img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2020/01/movie-recommendation-using-ML.jpg" height="200px" width="95%">Movie Recommendation System Using ML<p><br><a type=button onclick="alert('Movie recommendation System Based on User Interests')">View</a></div>
 
-	<div class="page2course3"><h4>Data Science</h4><img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/08/Data-Science-R-project-customer-segmentation.png" height="200px" width="95%">Customer Segmentation<p><br><a type=button onclick="alert('Identifying Potential Customer For your Products. It increases Your PROFIT. ')">View</a></div>
+	<div class="page2course3"><h4>Data Science</h4><img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/08/Data-Science-R-project-customer-segmentation.png" height="200px" width="95%">Customer Segmentation<p><br><a type=button onclick="alert('Identifying Potential Customer For your Products. It increases Your PROFIT. ')">View</a><br></div>
 
     </div>
 <div class="sec6" id="fc"> 
+	<center>Free Courses Available</center><hr>
    <!-- Slideshow container -->
 <div class="freecourses fade">
 
   <!-- Full images with numbers and message Info -->
   <div class="free">
     <img src="https://analyticsinsight.b-cdn.net/wp-content/uploads/2020/11/Artificial-Intelligence-5.jpg" style="width:100%">
-    <div class="enroll">Enroll</div>
+    <div class="enroll"></div>
   </div>
 
   <div class="free">
     <img src="https://www.pngkit.com/png/detail/70-701692_python-programming-logo-python-programming-language-png.png" style="width:100%">
-    <div class="enroll">Enroll</div>
+    <div class="enroll"></div>
   </div>
 
   <div class="free">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPTk_xJ2mYZbrL0ez6YUE5zz2Q5QG7r5FQHxJbneGC0RRohE39PcheghnIynmQdC4d90g&usqp=CAU" style="width:100%">
-    <div class="enroll">Enroll</div>
+    <div class="enroll"></div>
   </div>
 </div>
 <br>
@@ -139,7 +155,16 @@
   <span class="bar" onclick="currentCourse(3)"></span>
 </div>
   </div> 
+<div class="ourteam">
+	
+	<img src="https://sectigostore.com/blog/wp-content/uploads/2020/06/cyber-security-tips-for-smbs-940x588.jpg" height="100px" width="100px">
+	<img src="https://sectigostore.com/blog/wp-content/uploads/2020/06/cyber-security-tips-for-smbs-940x588.jpg" height="100px" width="100px">
+	<img src="https://sectigostore.com/blog/wp-content/uploads/2020/06/cyber-security-tips-for-smbs-940x588.jpg" height="100px" width="100px"><br>
+	<img src="https://sectigostore.com/blog/wp-content/uploads/2020/06/cyber-security-tips-for-smbs-940x588.jpg" height="100px" width="100px">
+	<img src="https://sectigostore.com/blog/wp-content/uploads/2020/06/cyber-security-tips-for-smbs-940x588.jpg" height="100px" width="100px">
+	<img src="https://sectigostore.com/blog/wp-content/uploads/2020/06/cyber-security-tips-for-smbs-940x588.jpg" height="100px" width="100px">
 
+</div>
 <div class="contact" id="contact">
 	<div class="map">
 		<img src="https://www.google.com/maps/vt/data=9esEzZrWFN9ja1NnmAlkxm9JFnaFjdp5oI7Vn7xkWJe51aZEA5Piq8K0ihXY2fCAX4YOt-_S9GggXQ1fXkUWF7yi9YpMP68sCRt4sSzA6gfZ-ZyI4WyARvvfDL7gmPWFuS7XOPyFx2T--ZMKJYz6IxHRCTXzcv57Al604k847i6kqLJjJaPHjRMAk_Fv72EY7u0bBOYdAyYpzUDA_yDSgGuLS4973T9OoRZMu7qnXKQTX8ggmAToMkZNh7VQVA" height="400px" width="100%">
@@ -156,6 +181,7 @@
 	</div>
 </div>
 <div class="about" id="reachus">
+	<center>Reach Us</center><hr>
 	  <div class="media">
 	     <div class="address">	
 	       <div class="item1">

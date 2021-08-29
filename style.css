@@ -1,5 +1,6 @@
 body{
 	background: #1a2421;
+      animation: navbar 1s linear;
 }
 .page1{
 	background: url("https://i.pinimg.com/originals/bb/f9/a9/bbf9a9f662d346b6f3ca2fd2ab89685b.jpg");
@@ -10,13 +11,25 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
-}
-.navbar{
-	background-color: black;
+    height: 450px;
+    font-size: 20px;
 }
 .page1 p{
-	font-size: 20px;
+	font-size: 25px;
+}
+
+
+
+
+
+:root * {
+  /* Pause the animation */
+  animation-play-state: paused;
+  /* Bind the animation to scroll */
+  animation-delay: calc(var(--scroll) * -1s);
+  /* These last 2 properites clean up overshoot weirdness */
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
 }
 .navbar b{
 	font-size: 25px;
@@ -45,7 +58,7 @@ body{
 	background: orange;
 }
 .sec2{
-	background: white;
+	  background: white;
     margin: 0% 10%;
     padding: 5% 5%;
     height: 300px;
@@ -74,6 +87,7 @@ body{
     height: 400px;
     font-size: 100%;
 }
+
 .page2pic1{
     text-align: center;
     float:left; 
@@ -92,22 +106,25 @@ body{
 img{
 	border-radius: 20px;
 }
-
+.page2pic1:hover, .page2pic2:hover, .page2pic3:hover, .small_img img:hover, .page2course1:hover, .page2course2:hover, .page2course3:hover{
+  box-shadow: -1px 1px 10px 10px rgba(0, 0, 0, 0.3);
+  border:2px solid white;
+}
 /*Page 4 */
 .sec4{
-	background: grey;
+	background: rgba(105,105,105, 1.0);
     margin: 0% 10%;
     padding: 5% 5%;
-    height: 500px;
+    height: 600px;
     color: white;
 }
 /*Project Page 4*/
 .projects{
-	background: grey;
 	text-align: center;
 }
-.projects img{
-	border-radius: 20px;
+.page2proj1:hover, .page2proj2:hover, .page2proj3:hover, .page2proj4:hover{
+
+  box-shadow: -1px 1px 10px 10px grey;
 }
 .page2proj1{
     float:left; 
@@ -145,7 +162,7 @@ img{
 	background: white;
     margin: 0% 10%;
     padding: 5% 5%;
-    height: 600px;
+    height: 650px;
 }
 .image_gal .small_img{
 	text-align: center;
@@ -167,7 +184,7 @@ img{
 }
 /*Carousel*/
 .sec6{
-  background: mediumpurple;
+  background: rgba(176,196,222, 0.9);
   margin: 0% 10%;
    padding: 5% 5%;
   height: 600px;
@@ -201,7 +218,32 @@ img{
   text-align: center;
 }
 
+.signup{
+  background: url("https://i.pinimg.com/originals/bb/f9/a9/bbf9a9f662d346b6f3ca2fd2ab89685b.jpg");
+    color: white;
+    margin: 0% 10%;
+    padding: 2% 5%;
+}
+.signup input{
+ width: 800px;
+ height: 40px;
+ border-radius: 10px;
+}
+.signup a{
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: orange;
+}
 
+header.sticky {
+      width: 70%;
+    position: fixed;  
+    background: rgb(227, 228, 247);
+    top: 0px;
+    padding: 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.05);
+    color: black;
+} 
 /* The circles or bullets and indicators */
 .bar {
   cursor: pointer;
@@ -233,9 +275,23 @@ img{
   from {opacity: .5}
   to {opacity: 2}
 }
+.ourteam{
+    margin: 0% 10%;
+   padding: 2% 1%;
+   text-align: center;
+   background: whitesmoke;
+}
+.ourteam img{
+  border-radius: 50%;
+  margin: 50px;
+}
+ourteam img:hover{
+  box-shadow: 2px black;
+}
+
 /*Contact Us*/
 .contact{
-	background: yellow;
+	background: rgba(255, 255, 204, 1);
 	margin: 0% 10%;
    padding: 5% 5%;
 	height: 500px;
@@ -250,12 +306,12 @@ img{
 	height: 300px;
 }
 
-input{
+.contactus input{
 	width: 99%;
 	border-radius: 10px 10px;
 	padding: 2% 3%;
 }
-label{
+.contactus label{
 	padding: 2% 1%;
 	font-size: 20px;
 }
